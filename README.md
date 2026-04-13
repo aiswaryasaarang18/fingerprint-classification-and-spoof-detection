@@ -1,19 +1,19 @@
-# 🧠 Multi-Task Fingerprint Classification and Spoof Detection
+# Multi-Task Fingerprint Classification and Spoof Detection
 
-## 📌 Overview
+## Overview
 
 This project presents a deep learning-based system for **fingerprint analysis and spoof detection** using a multi-task learning approach. The model simultaneously predicts:
 
-* ✅ Live vs Fake fingerprint
-* 👤 Gender (Male/Female/Unknown)
-* ✋ Hand (Left/Right/Unknown)
-* 🖐️ Finger type (Thumb, Index, Middle, Ring, Little)
+* Live vs Fake fingerprint
+* Gender (Male/Female/Unknown)
+* Hand (Left/Right/Unknown)
+* Finger type (Thumb, Index, Middle, Ring, Little)
 
 The system leverages a powerful convolutional neural network with attention mechanisms to improve feature extraction and classification performance.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * 🔹 Multi-task learning with 4 output heads
 * 🔹 Automatic label extraction from file names
@@ -24,7 +24,7 @@ The system leverages a powerful convolutional neural network with attention mech
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 * **Base Model:** EfficientNetB0
 * **Attention Module:** CBAM
@@ -34,7 +34,7 @@ The model shares a common feature extractor and branches into multiple outputs f
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 * **Dataset:** SOCOFing (Sokoto Coventry Fingerprint Dataset)
 * Contains real and altered (spoofed) fingerprint images
@@ -42,7 +42,7 @@ The model shares a common feature extractor and branches into multiple outputs f
 📥 Download Dataset:
 https://www.kaggle.com/datasets/ruizgara/socofing
 
-### 🏷️ Label Extraction
+### Label Extraction
 
 Labels are automatically extracted from file names.
 
@@ -57,7 +57,7 @@ From this:
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 * Python
 * TensorFlow / Keras
@@ -68,17 +68,17 @@ From this:
 
 ---
 
-## 📊 Results
+## Results
 
 * ✔ Accurate Live vs Fake detection
 * ✔ Successful multi-task predictions
 * 📈 Performance evaluated using accuracy and loss curves
 
-> ⚠️ Note: Current evaluation primarily focuses on Live/Fake classification. Other outputs are predicted but not fully evaluated.
+> Note: Current evaluation primarily focuses on Live/Fake classification. Other outputs are predicted but not fully evaluated.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository:
 
@@ -99,7 +99,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔍 Sample Prediction
+## Sample Prediction
 
 The model can predict:
 
@@ -110,7 +110,7 @@ The model can predict:
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 * Dataset is not included due to size
 * Replace dataset paths with your local directory
@@ -118,7 +118,7 @@ The model can predict:
 
 ---
 
-## 🌟 Future Improvements
+## Future Improvements
 
 * Full evaluation for all outputs (gender, hand, finger)
 * Deployment as a web/mobile application
@@ -126,13 +126,13 @@ The model can predict:
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 Aiswarya R
 
 ---
 
-## 📜 License
+## License
 
 This project is for academic and educational purposes.
 
